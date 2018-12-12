@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X01.jpg'>
+    <box top='14' left='13' width='53' height='51'>
+      <part name='0,' x='40' y='40'/>
+      <part name='1,' x='63' y='16'/>
+      <part name='2,' x='64' y='63'/>
+      <part name='3,' x='16' y='63'/>
+      <part name='4' x='17' y='16'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X02.jpg'>
+    <box top='3' left='1' width='77' height='78'>
+      <part name='0,' x='39' y='41'/>
+      <part name='1,' x='75' y='10'/>
+      <part name='2,' x='73' y='72'/>
+      <part name='3,' x='5' y='71'/>
+      <part name='4' x='4' y='12'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X03.jpg'>
+    <box top='11' left='6' width='65' height='62'>
+      <part name='0,' x='40' y='44'/>
+      <part name='1,' x='68' y='20'/>
+      <part name='2,' x='67' y='66'/>
+      <part name='3,' x='9' y='65'/>
+      <part name='4' x='14' y='22'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X04.jpg'>
+    <box top='6' left='9' width='64' height='66'>
+      <part name='0,' x='41' y='38'/>
+      <part name='1,' x='70' y='16'/>
+      <part name='2,' x='69' y='62'/>
+      <part name='3,' x='11' y='62'/>
+      <part name='4' x='11' y='17'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X05.jpg'>
+    <box top='7' left='7' width='67' height='65'>
+      <part name='0,' x='40' y='39'/>
+      <part name='1,' x='71' y='9'/>
+      <part name='2,' x='72' y='70'/>
+      <part name='3,' x='8' y='70'/>
+      <part name='4' x='9' y='8'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X06.jpg'>
+    <box top='0' left='1' width='75' height='73'>
+      <part name='0,' x='38' y='37'/>
+      <part name='1,' x='71' y='16'/>
+      <part name='2,' x='71' y='55'/>
+      <part name='3,' x='3' y='56'/>
+      <part name='4' x='3' y='16'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X07.jpg'>
+    <box top='3' left='4' width='74' height='74'>
+      <part name='0,' x='39' y='43'/>
+      <part name='1,' x='77' y='11'/>
+      <part name='2,' x='68' y='65'/>
+      <part name='3,' x='5' y='67'/>
+      <part name='4' x='7' y='16'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X08.jpg'>
+    <box top='8' left='15' width='55' height='66'>
+      <part name='0,' x='44' y='39'/>
+      <part name='1,' x='60' y='14'/>
+      <part name='2,' x='66' y='56'/>
+      <part name='3,' x='29' y='66'/>
+      <part name='4' x='17' y='13'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X09.jpg'>
+    <box top='7' left='5' width='72' height='67'>
+      <part name='0,' x='39' y='32'/>
+      <part name='1,' x='74' y='10'/>
+      <part name='2,' x='64' y='66'/>
+      <part name='3,' x='10' y='66'/>
+      <part name='4' x='7' y='15'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X10.jpg'>
+    <box top='9' left='2' width='72' height='68'>
+      <part name='0,' x='40' y='42'/>
+      <part name='1,' x='72' y='20'/>
+      <part name='2,' x='71' y='69'/>
+      <part name='3,' x='3' y='68'/>
+      <part name='4' x='8' y='18'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X11.jpg'>
+    <box top='11' left='3' width='75' height='60'>
+      <part name='0,' x='33' y='44'/>
+      <part name='1,' x='76' y='26'/>
+      <part name='2,' x='62' y='66'/>
+      <part name='3,' x='12' y='57'/>
+      <part name='4' x='4' y='18'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X12.jpg'>
+    <box top='1' left='2' width='76' height='66'>
+      <part name='0,' x='38' y='30'/>
+      <part name='1,' x='67' y='7'/>
+      <part name='2,' x='75' y='59'/>
+      <part name='3,' x='6' y='47'/>
+      <part name='4' x='4' y='6'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X13.jpg'>
+    <box top='9' left='3' width='75' height='47'>
+      <part name='0,' x='35' y='32'/>
+      <part name='1,' x='76' y='19'/>
+      <part name='2,' x='62' y='50'/>
+      <part name='3,' x='4' y='52'/>
+      <part name='4' x='16' y='13'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X14.jpg'>
+    <box top='1' left='2' width='74' height='73'>
+      <part name='0,' x='38' y='38'/>
+      <part name='1,' x='70' y='10'/>
+      <part name='2,' x='74' y='67'/>
+      <part name='3,' x='3' y='64'/>
+      <part name='4' x='4' y='10'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X15.jpg'>
+    <box top='7' left='3' width='66' height='68'>
+      <part name='0,' x='36' y='38'/>
+      <part name='1,' x='62' y='11'/>
+      <part name='2,' x='64' y='65'/>
+      <part name='3,' x='4' y='69'/>
+      <part name='4' x='14' y='15'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X16.jpg'>
+    <box top='1' left='3' width='73' height='76'>
+      <part name='0,' x='37' y='36'/>
+      <part name='1,' x='69' y='5'/>
+      <part name='2,' x='70' y='67'/>
+      <part name='3,' x='4' y='70'/>
+      <part name='4' x='11' y='7'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X17.jpg'>
+    <box top='14' left='13' width='56' height='55'>
+      <part name='0,' x='40' y='41'/>
+      <part name='1,' x='65' y='15'/>
+      <part name='2,' x='62' y='57'/>
+      <part name='3,' x='18' y='60'/>
+      <part name='4' x='16' y='23'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X18.jpg'>
+    <box top='4' left='3' width='72' height='101'>
+      <part name='0,' x='40' y='58'/>
+      <part name='1,' x='72' y='12'/>
+      <part name='2,' x='72' y='93'/>
+      <part name='3,' x='7' y='96'/>
+      <part name='4' x='5' y='15'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X19.jpg'>
+    <box top='0' left='0' width='80' height='76'>
+      <part name='0,' x='32' y='26'/>
+      <part name='1,' x='52' y='9'/>
+      <part name='2,' x='79' y='75'/>
+      <part name='3,' x='6' y='47'/>
+      <part name='4' x='3' y='1'/>
+    </box>
+  </image>
+  <image file='A:\Projetos\Python\projetos\RoboJogoVelha\visao\resources\imagens\treinamento\80x80\X20.jpg'>
+    <box top='1' left='1' width='76' height='115'>
+      <part name='0,' x='35' y='55'/>
+      <part name='1,' x='60' y='2'/>
+      <part name='2,' x='73' y='86'/>
+      <part name='3,' x='15' y='115'/>
+      <part name='4' x='2' y='28'/>
+    </box>
+  </image>
+</images>
+</dataset>

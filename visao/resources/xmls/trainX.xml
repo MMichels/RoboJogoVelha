@@ -1,0 +1,179 @@
+<?xml version='1.0' encoding='ISO-8859-1'?>
+<?xml-stylesheet type='text/xsl' href='image_metadata_stylesheet.xsl'?>
+<dataset>
+<name>imglab dataset</name>
+<comment>Created by imglab tool.</comment>
+<images>
+  <image file='../imagens/treinamento/X01.jpg'>
+    <box top='53' left='55' width='193' height='191'>
+      <part name='0,' x='149' y='148'/>
+      <part name='1,' x='214' y='60'/>
+      <part name='2,' x='215' y='239'/>
+      <part name='3,' x='81' y='240'/>
+      <part name='4' x='85' y='60'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X02.jpg'>
+    <box top='11' left='6' width='286' height='286'>
+      <part name='0,' x='143' y='155'/>
+      <part name='1,' x='274' y='24'/>
+      <part name='2,' x='267' y='284'/>
+      <part name='3,' x='19' y='273'/>
+      <part name='4' x='18' y='28'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X04.jpg'>
+    <box top='21' left='30' width='250' height='248'>
+      <part name='0,' x='154' y='145'/>
+      <part name='1,' x='253' y='46'/>
+      <part name='2,' x='257' y='246'/>
+      <part name='3,' x='50' y='248'/>
+      <part name='4' x='55' y='46'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X05.jpg'>
+    <box top='27' left='25' width='255' height='243'>
+      <part name='0,' x='151' y='141'/>
+      <part name='1,' x='230' y='34'/>
+      <part name='2,' x='232' y='264'/>
+      <part name='3,' x='62' y='264'/>
+      <part name='4' x='77' y='33'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X06.jpg'>
+    <box top='3' left='14' width='264' height='347'>
+      <part name='0,' x='145' y='184'/>
+      <part name='1,' x='231' y='17'/>
+      <part name='2,' x='266' y='332'/>
+      <part name='3,' x='61' y='338'/>
+      <part name='4' x='28' y='44'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X07.jpg'>
+    <box top='1' left='9' width='281' height='297'>
+      <part name='0,' x='151' y='140'/>
+      <part name='1,' x='251' y='10'/>
+      <part name='2,' x='273' y='260'/>
+      <part name='3,' x='11' y='283'/>
+      <part name='4' x='30' y='30'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X08.jpg'>
+    <box top='10' left='32' width='244' height='338'>
+      <part name='0,' x='155' y='189'/>
+      <part name='1,' x='228' y='19'/>
+      <part name='2,' x='262' y='312'/>
+      <part name='3,' x='83' y='333'/>
+      <part name='4' x='43' y='56'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X09.jpg'>
+    <box top='8' left='7' width='292' height='366'>
+      <part name='0,' x='117' y='179'/>
+      <part name='1,' x='225' y='12'/>
+      <part name='2,' x='285' y='252'/>
+      <part name='3,' x='51' y='358'/>
+      <part name='4' x='13' y='79'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X10.jpg'>
+    <box top='11' left='18' width='260' height='272'>
+      <part name='0,' x='154' y='144'/>
+      <part name='1,' x='262' y='35'/>
+      <part name='2,' x='258' y='264'/>
+      <part name='3,' x='36' y='258'/>
+      <part name='4' x='54' y='21'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X11.jpg'>
+    <box top='24' left='37' width='236' height='331'>
+      <part name='0,' x='148' y='185'/>
+      <part name='1,' x='238' y='44'/>
+      <part name='2,' x='258' y='333'/>
+      <part name='3,' x='50' y='330'/>
+      <part name='4' x='53' y='43'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X12.jpg'>
+    <box top='6' left='16' width='156' height='218'>
+      <part name='0,' x='91' y='109'/>
+      <part name='1,' x='154' y='17'/>
+      <part name='2,' x='160' y='209'/>
+      <part name='3,' x='23' y='203'/>
+      <part name='4' x='31' y='16'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X13.jpg'>
+    <box top='25' left='17' width='261' height='384'>
+      <part name='0,' x='146' y='209'/>
+      <part name='1,' x='257' y='50'/>
+      <part name='2,' x='259' y='389'/>
+      <part name='3,' x='28' y='370'/>
+      <part name='4' x='45' y='46'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X14.jpg'>
+    <box top='0' left='11' width='274' height='372'>
+      <part name='0,' x='139' y='180'/>
+      <part name='1,' x='263' y='3'/>
+      <part name='2,' x='274' y='370'/>
+      <part name='3,' x='15' y='353'/>
+      <part name='4' x='20' y='7'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X15.jpg'>
+    <box top='26' left='8' width='261' height='259'>
+      <part name='0,' x='132' y='138'/>
+      <part name='1,' x='219' y='38'/>
+      <part name='2,' x='233' y='261'/>
+      <part name='3,' x='36' y='256'/>
+      <part name='4' x='55' y='45'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X16.jpg'>
+    <box top='6' left='6' width='281' height='289'>
+      <part name='0,' x='138' y='126'/>
+      <part name='1,' x='234' y='13'/>
+      <part name='2,' x='250' y='263'/>
+      <part name='3,' x='27' y='261'/>
+      <part name='4' x='49' y='19'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X17.jpg'>
+    <box top='50' left='48' width='219' height='221'>
+      <part name='0,' x='154' y='150'/>
+      <part name='1,' x='240' y='74'/>
+      <part name='2,' x='229' y='230'/>
+      <part name='3,' x='73' y='227'/>
+      <part name='4' x='68' y='79'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X18.jpg'>
+    <box top='4' left='8' width='279' height='397'>
+      <part name='0,' x='152' y='211'/>
+      <part name='1,' x='260' y='29'/>
+      <part name='2,' x='250' y='359'/>
+      <part name='3,' x='49' y='365'/>
+      <part name='4' x='35' y='42'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X19.jpg'>
+    <box top='4' left='6' width='293' height='279'>
+      <part name='0,' x='121' y='92'/>
+      <part name='1,' x='194' y='23'/>
+      <part name='2,' x='290' y='270'/>
+      <part name='3,' x='31' y='184'/>
+      <part name='4' x='47' y='6'/>
+    </box>
+  </image>
+  <image file='../imagens/treinamento/X20.jpg'>
+    <box top='6' left='6' width='289' height='431'>
+      <part name='0,' x='134' y='206'/>
+      <part name='1,' x='216' y='10'/>
+      <part name='2,' x='243' y='300'/>
+      <part name='3,' x='65' y='392'/>
+      <part name='4' x='23' y='99'/>
+    </box>
+  </image>
+</images>
+</dataset>
