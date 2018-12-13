@@ -28,7 +28,7 @@ class RoboJogoVelha:
             x_parte = largura_div * x
             for y in range(3):
                 y_parte = altura_div * y
-                lista_partes.append([x_parte, y_parte])
+                lista_partes.append([x_parte, y_parte, 0])
         self.lista_partes = lista_partes
         self.largura_parte = largura_div
         self.altura_parte = altura_div
@@ -40,26 +40,30 @@ class RoboJogoVelha:
         y_end = int(y_ini + self.altura_parte)
         imagem = self.cam.read()[1]
         parte = imagem[x_ini:x_end, y_ini:y_end]
-        self.visao.img = parte
-        return self.visao.detectar()
+        return self.visao.detectar(parte)
 
     def procurar_ultima_jogada(self):
         for c in range(len(robo.lista_partes)):
-            if robo.lista_partes[c][0] == 0:
+            if robo.lista_partes[c][2] == 0:
                 analise = robo.analisar_parte(c)
                 if analise is True:
                     pos_mov = robo.jogo.posicoes[c]
                     if pos_mov in robo.jogo.esp_livres():
-                        robo.lista_partes[c][0] = MinMaxToe.JOGADOR
+                        robo.lista_partes[c][2] = MinMaxToe.JOGADOR
                         return c
         return None
 
     def exibi_visao(self):
-        imagem_visao = self.cam.read()[1]
+        imagem_visao = self.cam
         for p in self.lista_partes:
-            if p[0][0] == MinMaxToe.JOGADOR:
-                esq = p[0]
-
+            esq = p[0]
+            drt = esq + self.largura_parte
+            topo = [1]
+            baixo = topo + self.altura_parte
+            if p[2] == MinMaxToe.JOGADOR:
+                cv2.rectangle(imagem_visao, (esq, topo), (drt, baixo), DetectorX.COR_VERDE, 2)
+            elif p[2] == MinMaxToe.COMPUTADOR:
+                cv2.rectangle(imagem_visao, (esq, topo), (drt, baixo), DetectorX.COR_AZUL, 2)
 
 
 if __name__ == '__main__':
