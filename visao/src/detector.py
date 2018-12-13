@@ -1,20 +1,21 @@
 from typing import Optional
-
-from cv2 import imread, imshow, rectangle, waitKey
+from cv2 import imread, imshow, rectangle, waitKey, VideoCapture
 import dlib
+import numpy
 import os.path
 
 
 class DetectorX:
-    SVM = '../resources/svms/svmX.svm'
+    SVM = 'Z:/Python/projetos/RoboJogoVelha/visao/resources/svms/svmX.svm'
     COR_VERDE = (0, 255, 0)
 
-    def __init__(self, img, svm: str):
+    def __init__(self, fonteImagem: str, svm: str):
         """
-        :param img: Imagem a ser analizada
+        :param fonteImagem: fonte da imagem a ser analizada, pode ser um diretorio de arquivo
+        ou a String 'camera:numerodispositivo', por padrao o numero é 0
         :param svm: diretorio do arquivo .svm
         """
-        self.img = imread(img)
+        self.fonteImagem = fonteImagem
         if svm is not None:
             self.svm = dlib.simple_object_detector(svm)
         else:
@@ -25,7 +26,8 @@ class DetectorX:
         self.detectado = False
 
     def detectar(self):
-        deteccoes = self.svm(self.img)
+        imagem = self.capturar_imagem()
+        deteccoes = self.svm(imagem)
         if len(deteccoes) > 0:
             self.detectado = True
             for obj in deteccoes:
@@ -40,12 +42,28 @@ class DetectorX:
             for obj in self.objs:
                 if obj[4] > 40000:
                     esq = obj[0]
-                    dir = obj[1]
+                    drt = obj[1]
                     top = obj[2]
                     bot = obj[3]
-                    rectangle(self.img, (esq, top), (dir, bot), DetectorX.COR_VERDE, 2)
-        return self.img
+                    rectangle(self.fonteImagem, (esq, top), (drt, bot), DetectorX.COR_VERDE, 2)
+        return self.fonteImagem
 
     def exibir(self):
-        imshow('Resultado', self.img)
+        imshow('Resultado', self.fonteImagem)
         waitKey(0)
+
+    def capturar_imagem(self) -> numpy.ndarray:
+        try:
+            if os.path.exists(self.fonteImagem):
+                return imread(self.fonteImagem)
+            if self.fonteImagem.lower().count("camera") > 0:
+                num_cam = 0
+                if self.fonteImagem.count(':') > 0:
+                    num_cam = int(self.fonteImagem.split(':')[1])
+                cam = VideoCapture(num_cam)
+                status, imagem = cam.read()
+                if status is True:
+                    return imagem
+                raise Exception('Nao foi possivel obter a imagem, o metodo read() retornou status False')
+        except Exception as e:
+            print('Erro ao obter imagem: ', e)

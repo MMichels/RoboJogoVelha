@@ -1,15 +1,13 @@
-import detector
+from detector import DetectorX
 import cv2
 
 cam = cv2.VideoCapture(0)
-detector = detector.DetectorX(None, None)
-while(True):
-    ret, imagem = cam.read()
-    detector.img = imagem
-    detector.detectar()
-    detector.desenhar()
-    cv2.imshow('Camera', detector.img)
-    if detector.detectado:
+visao = DetectorX('camera:0', None)
+while True:
+    visao.detectar()
+    visao.desenhar()
+    cv2.imshow('Camera', visao.capturar_imagem())
+    if visao.detectado:
         print('detectado')
         input()
     if cv2.waitKey(1) == ord('q'):
