@@ -8,6 +8,7 @@ import os.path
 class DetectorX:
     SVM = 'Z:/Python/projetos/RoboJogoVelha/visao/resources/svms/svmX.svm'
     COR_VERDE = (0, 255, 0)
+    COR_AZUL = (0, 0, 255)
 
     def __init__(self, fonteImagem: str, svm: str):
         """
@@ -25,8 +26,9 @@ class DetectorX:
         self.deteccoes = dict
         self.detectado = False
 
-    def detectar(self):
-        imagem = self.capturar_imagem()
+    def detectar(self, imagem: numpy.ndarray):
+        if imagem is None:
+            imagem = self.capturar_imagem()
         deteccoes = self.svm(imagem)
         if len(deteccoes) > 0:
             self.detectado = True
